@@ -1,0 +1,22 @@
+div.main{
+	margin-top: 180px;
+}
+
+div.formRow{
+	margin-bottom:15px;
+}
+
+div.headRow{
+	margin-top:30px;
+	margin-bottom: 60px;
+}
+
+#notice{
+	padding-left: 0px;
+	color: red;
+}
+
+.notInputTextInForm{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
