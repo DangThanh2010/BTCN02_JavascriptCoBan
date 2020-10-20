@@ -44,8 +44,15 @@ function Calculate(frm)
 			else
 				if(checkDivide.checked)
 				{
-					result.value = firstNumber / secondNumber;
-					notice.innerText = "";
+					if(secondNumber === 0)
+					{
+						notice.innerHTML = "Dữ liệu không hợp lệ."
+					}
+					else
+					{
+						result.value = firstNumber / secondNumber;
+						notice.innerText = "";
+					}
 				}
 				else
 					notice.innerText = "Chưa chọn phép tính.";
